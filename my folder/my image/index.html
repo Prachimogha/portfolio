@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/c4254e24a8.js"crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+           <img src="logo.png.png" class="logo">
+           <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+           </ul>
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text"></div>
+             <p>UI/UX Designer</p>
+             <h1>Hi, I'm <span>Prachi Mogha</span> from India </h1>
+    </div>
+  </div> 
+   <!-----------about-------->
+  <div id="about">
+    <div class="conteriner">
+        <div class="row">
+           <div class="about-col-1">
+           <img src="backgroung.png.jpg" class="background">
+           </div> 
+           <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>I am highly motivated and ambitious individual .Prachi is a hardworking and dedicated student who puts her best efforts in all her undertakings. She is a quick learner and is always eager to pick up new skills and knowledge. Prachi has a passion for problem-solving and loves to take on challenges. She is an avid reader and loves to explore new topics and ideas. Prachi also takes part in various extracurricular activities such as debates and public speaking. Her communication and interpersonal skills are great, and she has the ability to interact with people in a professional manner. Prachi is looking forward to starting her career and making a difference in the world.</p>
+           <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('Knowledge')">knowledge</p>
+              <p class="tab-links"onclick="opentab('Education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="Skills">
+            <ul>
+                <li><span>Competative Programming </span><br>In C++ Language</li>
+                <li><span>Web Development</span><br>Web App interfaces</li>
+                <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                <li><span>Designing</span><br>Figma & Canva </li>
+            </ul>
+        </div>
+        <div class="tab-contents "id="Knowledge">
+            <ul>
+                <li><span>Programming Language </span><br>C Language</li>
+                <li><span>Programming Language </span><br>C++ Language</li>
+                <li><span>Programming Language </span><br>HTML & CSS Language</li>
+            </ul>
+        </div>
+        <div class="tab-contents"id="Education">
+            <ul>
+                <li><span>2022-2025</span><br>B.Tech (Information Technology) from AKG Engineering College,Ghaziabad </li>
+                <li><span>2021</span><br>Intermedite from KVDL Meerut Cantt</li>
+                <li><span>2019</span><br>High School from KVDL Meerut Cantt</li>
+            </ul>
+          </div>
+         </div> 
+      </div>
+    </div>
+</div>
+  <!---------------services-------------->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+                <h2>Web Design</h2>
+                <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips. A web designer is responsible for creating the design and layout of a website or web pages. It and can mean working on a brand new website or updating an already existing site.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Designing</h2>
+                <p>User interface design or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience.User experience design is the process of defining the experience a user would go through when interacting with a digital product or website. Design decisions in UX design are often driven by research, data analysis, and test results rather than aesthetic preferences and opinions.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Competative Programming</h2>
+                <p>Competitive programming is a mind sport usually held over the Internet or a local network, involving participants trying to program according to provided specifications. Contestants are referred to as sport programmers.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------portfolio-------------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+       <div  class="work">
+        <img src="work-1.png.png">
+        <div class="layer">
+            <h3>Webpage</h3>
+            <p>This is the webpage developed by me. Visit this page through this link. </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+       </div>
+       <div  class="work">
+        <img src="work-2.png.jpg">
+        <div class="layer">
+            <h3>Designing</h3>
+            <p>This is a simple design, designed by me. </p>
+            <a href="#"><i class="fa-solid fa-pen-nib"></i></a>
+        </div>
+       </div>
+       <div  class="work">
+        <img src="work-3.png.jpg">
+        <div class="layer">
+            <h3>Competative Programming</h3>
+            <p>>I am a competative programmer. </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+       </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+</div>
+</div>
+<!-----------------contact----------->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>moghaprachi@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+918449439095</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            </div>
+            <a href="PRACHI_MOGHA_Resume_08-06-2022-21-55-28.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right"></div>
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="=email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+    </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ prachi. Made by <i class="fa-solid fa-heart"></i> @moghaprachi </p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+       for(tablink of tablink){
+           tablink.classList.remove("active-link");
+       }
+       for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-link");
+}
+</script>
+<script>
+   var sidemenu = document.getElementById("sidemenu");
+   function openmenu(){
+    sidemenu.style.right ="0";
+   }
+   function closemenu(){
+    sidemenu.style.right ="-200px";
+   }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbylP0e0uVgmedt8B2ZIcJkDB8o0FmcIdUIkUCkQiRkI6dPSLOz0Xi_Y-N0NQ4e6M_p1JA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML="";
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</script>               
+</body>
+</html>
